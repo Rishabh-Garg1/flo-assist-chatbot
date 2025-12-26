@@ -25,7 +25,7 @@ function addBotMessage(text) {
   const div = document.createElement("div");
   div.className = "bot-message";
   div.innerHTML = `
-    <img src="https://i.imgur.com/9QO6M5G.png" class="avatar" />
+    <img src="avatar.png" class="avatar" />
     <p>${text}</p>
   `;
   chatBody.appendChild(div);
